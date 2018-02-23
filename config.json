@@ -1,6 +1,6 @@
 {
-    "coin": "monero",
-    "symbol": "XMR",
+    "coin": "darktaelon",
+    "symbol": "DTN",
 
     "logging": {
         "files": {
@@ -17,7 +17,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "48Y4SoUJM5L3YXBEfNQ8bFNsvTNsqcH5Rgq8RF7BwpgvTBj2xr7CmWVanaw7L4U9MnZ4AG7U6Pn1pBhfQhFyFZ1rL1efL8z",
+        "poolAddress": " dy239w3icYViSQDpmN8CDrZfurm6Cq6eVhom9bDtvxrZFdBD3Le6getQz2SGqrMbFxTSpKRsdgAnTTWPfkBUFuLj1JhGGtz1Y",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -77,9 +77,9 @@
         "interval": 600,
         "maxAddresses": 50,
         "mixin": 3,
-        "transferFee": 5000000000,
-        "minPayment": 100000000000,
-        "denomination": 100000000000
+        "transferFee": 500000000,
+        "minPayment": 1000000000,
+        "denomination": 1000000000
     },
 
     "blockUnlocker": {
@@ -98,21 +98,21 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password"
+        "password": "@DarkTaelon001"
     },
 
     "daemon": {
-        "host": "127.0.0.1",
+        "host": "188.166.23.241",
         "port": 18081
     },
 
     "wallet": {
-        "host": "127.0.0.1",
+        "host": "188.166.23.241",
         "port": 8082
     },
 
     "redis": {
-        "host": "127.0.0.1",
+        "host": "188.166.89.216",
         "port": 6379,
         "auth": null
     }
